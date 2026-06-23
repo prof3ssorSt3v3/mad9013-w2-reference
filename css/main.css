@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  color: #387bb2;
+}
+
+a {
+  color: #387bb2;
+}
+
+a:hover {
+  color: hsl(207, 52%, 20%);
+}
+
+.masthead {
+  background-color: #387bb2;
+  padding: 1rem;
+}
+
+.masthead a {
+  color: #fff;
+}
+
+.masthead a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  font-size: 2rem;
+  margin: 0;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.banner {
+  padding: 5rem 1rem;
+  background-color: rgba(56, 123, 178, 0.25);
+}
+
+.banner .title {
+  font-size: 3rem;
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #387bb2;
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: hsl(207, 52%, 20%);
+  color: #fff;
+}
+
+section {
+  padding: 1rem;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 0;
+  margin-block-end: 2rem;
+}
+
+.card {
+  margin-block-end: 1rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.more-posts {
+  font-weight: bold;
+  color: #387bb2;
+}
+
+.about-author {
+  padding: 5rem 1rem;
+  background-color: rgba(56, 123, 178, 0.25);
+}
+
+.about-author h2 {
+  margin: 0 0 1.5rem;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-footer,
+.sub-footer {
+  padding: 1rem;
+}
+
+.sub-footer {
+  background-color: #111;
+}
+
+/* - - - - - - - - - - Post Page - - - - - - - - - - */
+
+.banner-post {
+  background-image: url("../images/post-1-banner.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.tags,
+.author-info {
+  padding: 1rem;
+}
+
+.author-info {
+  background-color: rgba(56, 123, 178, 0.25);
+}
