@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 body {
@@ -141,7 +141,7 @@ section {
 /* - - - - - - - - - - Post Page - - - - - - - - - - */
 
 .banner-post {
-  background-image: url("../images/post-1-banner.jpg");
+  background-image: url('../images/post-1-banner.jpg');
   background-size: cover;
   color: #fff;
 }
